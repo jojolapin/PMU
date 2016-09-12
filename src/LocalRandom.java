@@ -56,6 +56,7 @@ public class LocalRandom
 		arrFive = new int[listSize];
 		for(int i = 0; i < listSize; i++){
   //          System.out.print(obj.getRandomList(list) + ", ");
+			obj.getRandomList(list);
             arrFive[i] = obj.getRandomList(list);
         }
 		part1 =  new ArrayList<Integer>(Arrays.asList(TestReadFile3.toObject(arrFive)));

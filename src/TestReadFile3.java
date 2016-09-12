@@ -73,7 +73,7 @@ public class TestReadFile3 {
 		System.out.println("First Choice of 10 numbers: ---------> " +  LocalRandom.getPart());
 		ArrayList<Integer> parti = LocalRandom.getPart();
 		
-		 System.out.println("Part list 5: ------------------------> " + LocalRandom.partFive(parti, obj, 5));
+//		 System.out.println("Part list 5: ------------------------> " + LocalRandom.partFive(parti, obj, 5));
 		 List<Integer> contrePart = oppositChoice(parti, sourceList );
 		
 		 
@@ -82,9 +82,8 @@ public class TestReadFile3 {
 		 //contrePart Combination list
 //		 Permutation.printCombination(convertIntegers(contrePart), contrePart.size(), r );
 		 
-		 System.out.println("Part() list : ---> " + parti);
-		 
-//		 	 System.out.println("Part list 5: ---> " + LocalRandom.partFive(parti, obj, 5));
+//		 System.out.println("Part() list : ---> " + parti);
+		 		 	 System.out.println("contrePart: ---> " + contrePart);
 		 System.out.println("contrePart list 5: ---> " + LocalRandom.partFive(contrePart, obj, 5));
 		 
 		 
